@@ -1,7 +1,7 @@
-package com.devon.composechat.data
+package com.devon.wecomposechat.data
 
 import androidx.annotation.DrawableRes
-import com.devon.composechat.R
+import com.devon.wecomposechat.R
 
 class User(
     val id: String,

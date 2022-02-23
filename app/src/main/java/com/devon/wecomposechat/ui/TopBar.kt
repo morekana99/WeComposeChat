@@ -1,6 +1,5 @@
-package com.devon.composechat.ui
+package com.devon.wecomposechat.ui
 
-import android.content.Context
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -19,10 +18,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devon.composechat.WeViewModel
-import com.devon.composechat.ui.theme.WeComposeChatTheme
-import com.devon.composechat.R
-import com.devon.composechat.util.PersistenceUtil
+import com.devon.wecomposechat.WeViewModel
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.util.PersistenceUtil
+import com.devon.wecomposechat.R
 
 @Composable
 fun TopBar(title: String, onBack: (() -> Unit)? = null) {

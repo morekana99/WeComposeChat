@@ -1,10 +1,10 @@
-package com.devon.composechat.ui
+package com.devon.wecomposechat.ui
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
-import com.devon.composechat.WeViewModel
+import com.devon.wecomposechat.WeViewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.rememberPagerState

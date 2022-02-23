@@ -1,4 +1,4 @@
-package com.devon.composechat.ui.theme
+package com.devon.wecomposechat.ui.theme
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.colorspace.ColorSpaces

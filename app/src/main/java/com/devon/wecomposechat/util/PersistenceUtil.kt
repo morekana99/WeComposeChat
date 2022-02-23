@@ -1,8 +1,8 @@
-package com.devon.composechat.util
+package com.devon.wecomposechat.util
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.devon.composechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
 
 /**
  * Note No.1

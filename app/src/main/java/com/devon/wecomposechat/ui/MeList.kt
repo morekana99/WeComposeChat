@@ -1,4 +1,4 @@
-package com.devon.composechat.ui
+package com.devon.wecomposechat.ui
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -18,9 +18,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.devon.composechat.ui.theme.WeComposeChatTheme
-import com.devon.composechat.R
-import com.devon.composechat.data.User
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.data.User
+import com.devon.wecomposechat.R
 
 @Composable
 fun MeListTopBar() {

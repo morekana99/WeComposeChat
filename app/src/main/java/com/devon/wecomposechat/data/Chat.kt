@@ -1,4 +1,4 @@
-package com.devon.composechat.data
+package com.devon.wecomposechat.data
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

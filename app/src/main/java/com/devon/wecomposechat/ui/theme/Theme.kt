@@ -1,4 +1,4 @@
-package com.devon.composechat.ui.theme
+package com.devon.wecomposechat.ui.theme
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.TweenSpec

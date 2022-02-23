@@ -1,11 +1,10 @@
-package com.devon.composechat.ui
+package com.devon.wecomposechat.ui
 
-import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devon.composechat.WeViewModel
-import com.devon.composechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.WeViewModel
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 

@@ -1,18 +1,17 @@
-package com.devon.composechat
+package com.devon.wecomposechat
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
 import androidx.compose.ui.graphics.Color
 import androidx.core.view.WindowCompat
-import com.devon.composechat.ui.ChangeStatusBarColor
-import com.devon.composechat.ui.ChatPage
-import com.devon.composechat.ui.Home
-import com.devon.composechat.ui.theme.WeComposeChatTheme
-import com.devon.composechat.util.PersistenceUtil
+import com.devon.wecomposechat.ui.ChangeStatusBarColor
+import com.devon.wecomposechat.ui.ChatPage
+import com.devon.wecomposechat.ui.Home
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.util.PersistenceUtil
 
 
 class MainActivity : ComponentActivity() {

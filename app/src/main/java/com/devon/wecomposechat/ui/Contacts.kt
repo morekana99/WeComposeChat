@@ -1,4 +1,4 @@
-package com.devon.composechat.ui
+package com.devon.wecomposechat.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -15,11 +15,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.devon.composechat.WeViewModel
-import com.devon.composechat.data.User
-import com.devon.composechat.ui.theme.WeComposeChatTheme
-import com.devon.composechat.R
+import com.devon.wecomposechat.WeViewModel
+import com.devon.wecomposechat.data.User
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.devon.wecomposechat.R
 
 
 @Composable

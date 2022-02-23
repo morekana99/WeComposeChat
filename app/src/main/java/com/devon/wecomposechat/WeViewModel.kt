@@ -1,11 +1,12 @@
-package com.devon.composechat
+package com.devon.wecomposechat
 
 import androidx.compose.runtime.*
 import androidx.lifecycle.ViewModel
-import com.devon.composechat.data.Chat
-import com.devon.composechat.data.Msg
-import com.devon.composechat.data.User
-import com.devon.composechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.data.Chat
+import com.devon.wecomposechat.data.Msg
+import com.devon.wecomposechat.data.User
+import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.wecomposechat.R
 
 class WeViewModel: ViewModel() {
     var chats by mutableStateOf(
