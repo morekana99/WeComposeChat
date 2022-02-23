@@ -1,28 +1,28 @@
-package com.devon.wecomposechat
+package com.devon.composechat
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devon.wecomposechat.ui.BottomNavigator
-import com.devon.wecomposechat.ui.ChatList
-import com.devon.wecomposechat.ui.ChatPage
-import com.devon.wecomposechat.ui.Home
-import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
-import com.google.accompanist.pager.ExperimentalPagerApi
-import com.google.accompanist.pager.HorizontalPager
+import androidx.compose.ui.graphics.Color
+import androidx.core.view.WindowCompat
+import com.devon.composechat.ui.ChangeStatusBarColor
+import com.devon.composechat.ui.ChatPage
+import com.devon.composechat.ui.Home
+import com.devon.composechat.ui.theme.WeComposeChatTheme
+import com.devon.composechat.util.PersistenceUtil
 
 
 class MainActivity : ComponentActivity() {
     private val viewModel:WeViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+        viewModel.theme = PersistenceUtil.getThemeFromSharedPreferences(this)
         setContent {
+            ChangeStatusBarColor(Color.Transparent)
             WeComposeChatTheme(viewModel.theme) {
                 Box{
                     Home(viewModel)
@@ -38,6 +38,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
 
 
 

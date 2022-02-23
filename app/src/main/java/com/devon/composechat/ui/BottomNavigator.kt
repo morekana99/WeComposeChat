@@ -1,4 +1,4 @@
-package com.devon.wecomposechat.ui
+package com.devon.composechat.ui
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.background
@@ -17,10 +17,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devon.wecomposechat.R
-import com.devon.wecomposechat.WeViewModel
-import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.composechat.R
+import com.devon.composechat.ui.theme.WeComposeChatTheme
 
 @Composable
 fun BottomNavigator(selected: Int,onSelectedChanged: (Int) -> Unit) {

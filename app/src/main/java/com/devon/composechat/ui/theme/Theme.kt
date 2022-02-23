@@ -1,4 +1,4 @@
-package com.devon.wecomposechat.ui.theme
+package com.devon.composechat.ui.theme
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.TweenSpec
@@ -101,7 +101,7 @@ class WeComposeColors(
   bubbleOthers: Color,
   textFieldBackground: Color,
   more: Color,
-  chatPageBgAlpha: Float,
+  chatPageBgAlpha: Float
 ) {
   var bottomBar: Color by mutableStateOf(bottomBar)
     private set

@@ -1,4 +1,4 @@
-package com.devon.wecomposechat.ui
+package com.devon.composechat.ui
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.animateFloatAsState
@@ -26,11 +26,11 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devon.wecomposechat.R
-import com.devon.wecomposechat.WeViewModel
-import com.devon.wecomposechat.data.Msg
-import com.devon.wecomposechat.data.User
-import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.composechat.R
+import com.devon.composechat.WeViewModel
+import com.devon.composechat.data.Msg
+import com.devon.composechat.data.User
+import com.devon.composechat.ui.theme.WeComposeChatTheme
 import kotlinx.coroutines.delay
 import kotlin.math.roundToInt
 

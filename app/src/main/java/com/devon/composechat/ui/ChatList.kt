@@ -1,11 +1,10 @@
-package com.devon.wecomposechat.ui
+package com.devon.composechat.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Divider
@@ -21,31 +20,28 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devon.wecomposechat.WeViewModel
-import com.devon.wecomposechat.data.Chat
-import com.devon.wecomposechat.ui.theme.WeComposeChatTheme
+import com.devon.composechat.WeViewModel
+import com.devon.composechat.data.Chat
+import com.devon.composechat.ui.theme.WeComposeChatTheme
 
 
 @Composable
 fun ChatList(chats: List<Chat>) {
     Column(
         Modifier
-            .background(WeComposeChatTheme.colors.background)
+            .background(WeComposeChatTheme.colors.listItem)
             .fillMaxSize()
     ) {
         TopBar(title = "微信")
         LazyColumn(Modifier.background(WeComposeChatTheme.colors.listItem)){
             itemsIndexed(chats){ index, chat ->
                 ChatListItem(chat)
-                if(index < chats.lastIndex){
-                    Divider(
+                Divider(
                         startIndent = 68.dp,
-                        color = WeComposeChatTheme.colors.chatListDivider,
-                        thickness = 0.8f.dp
-                    )
-                }
+                color = WeComposeChatTheme.colors.chatListDivider,
+                thickness = 0.5f.dp
+                )
             }
         }
     }
@@ -56,6 +52,7 @@ private fun ChatListItem(chat: Chat) {
     val viewModel: WeViewModel = viewModel()
     Row(
         Modifier
+            .padding(10.dp)
             .clickable {
                 viewModel.startChat(chat)
             }

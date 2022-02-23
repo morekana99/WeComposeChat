@@ -1,4 +1,4 @@
-package com.devon.wecomposechat.ui.theme
+package com.devon.composechat.ui.theme
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.colorspace.ColorSpaces
@@ -28,8 +28,8 @@ val grey3 = Color(0xFF767676).convert(ColorSpaces.CieXyz)
 val grey4 = Color(0xFFB2B2B2).convert(ColorSpaces.CieXyz)
 val grey5 = Color(0xFF5E5E5E).convert(ColorSpaces.CieXyz)
 val green1 = Color(0xFFB0EB6E).convert(ColorSpaces.CieXyz)
-val green2 = Color(0xFF6DB476).convert(ColorSpaces.CieXyz)
-val green3 = Color(0xFF67BF63).convert(ColorSpaces.CieXyz)
+val green2 = Color(0xFF95EC69).convert(ColorSpaces.CieXyz)
+val green3 = Color(0xFF07C160).convert(ColorSpaces.CieXyz)
 val red1 = Color(0xFFDF5554).convert(ColorSpaces.CieXyz)
 val red2 = Color(0xFFDD302E).convert(ColorSpaces.CieXyz)
 val red3 = Color(0xFFF77B7A).convert(ColorSpaces.CieXyz)

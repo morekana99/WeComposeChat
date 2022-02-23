@@ -1,4 +1,4 @@
-package com.devon.wecomposechat
+package com.devon.composechat
 
 import org.junit.Test
 

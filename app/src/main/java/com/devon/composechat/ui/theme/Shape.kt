@@ -1,4 +1,4 @@
-package com.devon.wecomposechat.ui.theme
+package com.devon.composechat.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

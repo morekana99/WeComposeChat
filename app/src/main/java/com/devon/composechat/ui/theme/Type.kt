@@ -1,4 +1,4 @@
-package com.devon.wecomposechat.ui.theme
+package com.devon.composechat.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

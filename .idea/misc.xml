@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/avatar_diuwuxian.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/avatar_gaolaoshi.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_arrow_more.xml" value="0.2125" />
         <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_discovery_filled.xml" value="0.1525" />
         <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_discovery_outlined.xml" value="0.1525" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_me_filled.xml" value="0.13" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_me_outlined.xml" value="0.13" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_moments.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_more_drak.xml" value="0.2125" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_more_light.xml" value="0.1265" />
+        <entry key="..\:/AndroidProjects/WeComposeChat/app/src/main/res/drawable/ic_photos.xml" value="0.1265" />
       </map>
     </option>
   </component>
